@@ -109,43 +109,43 @@
                         ]
                     },
                     {
-                          "description": "Caps Lock to switch lang on single press, Control on press and hold",
-                          "manipulators": [
+                        "description": "Caps Lock to switch lang on single press, Control on press and hold",
+                        "manipulators": [
                             {
-                              "from": {
-                                "key_code": "caps_lock",
-                                "modifiers": {
-                                  "optional": [
-                                    "any"
-                                  ]
-                                }
-                              },
-                              "parameters": {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "parameters": {
                                     "basic.to_if_alone_timeout_milliseconds": 200,
                                     "basic.to_if_held_down_threshold_milliseconds": 2000
                                 },
-                              "to": [
+                                "to": [
                                     {
                                         "key_code": "left_control"
                                     }
                                 ],
-                              "to_if_alone": [
-                                {
-                                  "key_code": "1",
-                                  "modifiers": [
-                                    "left_command",
-                                    "left_shift",
-                                    "left_control",
-                                    "left_option"
-                                  ]
-                                }
-                              ],
-                              "type": "basic"
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "1",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_shift",
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
                     {
-                        "description": "Hyper + M to forward delete",
+                        "description": "Navigation",
                         "manipulators": [
                             {
                                 "from": {
@@ -164,7 +164,31 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_forward"
+                                        "key_code": "left_arrow",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control",
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": "left_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -725,7 +749,63 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+
+
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "parameters": {
+                                    "basic.to_if_alone_timeout_milliseconds": 300,
+                                    "basic.to_if_held_down_threshold_milliseconds": 0
+                                },
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "d"
+                                    }
+                                ],
+                                "to_if_held_down": [
+                                    {
+                                        "key_code": "left_option"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "parameters": {
+                                    "basic.to_if_alone_timeout_milliseconds": 300,
+                                    "basic.to_if_held_down_threshold_milliseconds": 0
+                                },
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "k"
+                                    }
+                                ],
+                                "to_if_held_down": [
+                                    {
+                                        "key_code": "right_option"
+                                    }
+                                ],
+                                "type": "basic"
                             }
+
+
+
+
                         ]
                     },
                     {
