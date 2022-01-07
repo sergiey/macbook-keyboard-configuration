@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2021-10-26 at 22:37 (GMT+3)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2022-01-07 at 17:32 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-14928" name="Russian - Universal" maxout="3">
     <layouts>
@@ -70,18 +70,18 @@
             <key code="15" action="к"/>
             <key code="16" action="19"/>
             <key code="17" action="е"/>
-            <key code="18" output="!"/>
-            <key code="19" output="@"/>
-            <key code="20" output="#"/>
-            <key code="21" output=";"/>
-            <key code="22" output=":"/>
-            <key code="23" output="%"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
             <key code="24" output="="/>
-            <key code="25" output="("/>
-            <key code="26" output="?"/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
             <key code="27" output="-"/>
-            <key code="28" output="*"/>
-            <key code="29" output=")"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
             <key code="30" action="ъ"/>
             <key code="31" action="17"/>
             <key code="32" action="18"/>
@@ -182,18 +182,18 @@
             <key code="15" action="К"/>
             <key code="16" action="12"/>
             <key code="17" action="Е"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output=";"/>
+            <key code="22" output=":"/>
+            <key code="23" output="%"/>
             <key code="24" output="+"/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
+            <key code="25" output="("/>
+            <key code="26" output="?"/>
             <key code="27" output="_"/>
-            <key code="28" output="8"/>
-            <key code="29" output="0"/>
+            <key code="28" output="*"/>
+            <key code="29" output=")"/>
             <key code="30" action="Ъ"/>
             <key code="31" action="10"/>
             <key code="32" action="11"/>
@@ -276,22 +276,22 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="2">
-            <key code="0" output="≈"/>
-            <key code="1" output="И"/>
-            <key code="2" output="°"/>
-            <key code="3" output="£"/>
-            <key code="4" output="₽"/>
-            <key code="5" output=""/>
+            <key code="0" output=":"/>
+            <key code="1" output="+"/>
+            <key code="2" output="&#x0027;"/>
+            <key code="3" output="&#x0022;"/>
+            <key code="4" output="_"/>
+            <key code="5" output="-"/>
             <key code="6" output=""/>
-            <key code="7" output="×"/>
-            <key code="8" output="©"/>
-            <key code="9" output="↓"/>
+            <key code="7" output="|"/>
+            <key code="8" output="\"/>
+            <key code="9" output="^"/>
             <key code="10" output="`"/>
             <key code="11" action="і"/>
-            <key code="12" output="§"/>
-            <key code="13" output="✓"/>
-            <key code="14" output="€"/>
-            <key code="15" output="®"/>
+            <key code="12" output="!"/>
+            <key code="13" output="№"/>
+            <key code="14" output="?"/>
+            <key code="15" output="%"/>
             <key code="16" action="ѣ"/>
             <key code="17" output="ё"/>
             <key code="18" output="¹"/>
@@ -306,27 +306,27 @@
             <key code="27" output="—"/>
             <key code="28" output=";"/>
             <key code="29" output="→"/>
-            <key code="30" output="]"/>
+            <key code="30" output=""/>
             <key code="31" action="ѳ"/>
             <key code="32" action="ґ"/>
-            <key code="33" output="["/>
-            <key code="34" output="є"/>
-            <key code="35" output="´"/>
+            <key code="33" output="“"/>
+            <key code="34" output="]"/>
+            <key code="35" output="„"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="”"/>
-            <key code="38" output="„"/>
-            <key code="39" output="’"/>
-            <key code="40" output="“"/>
-            <key code="41" output="‘"/>
-            <key code="42" output="ї"/>
-            <key code="43" output="«"/>
-            <key code="44" output="…"/>
+            <key code="37" output="="/>
+            <key code="38" output="("/>
+            <key code="39" output="ъ"/>
+            <key code="40" output=")"/>
+            <key code="41" output=";"/>
+            <key code="42" output=""/>
+            <key code="43" output="}"/>
+            <key code="44" output=""/>
             <key code="45" output=""/>
-            <key code="46" output="ъ"/>
-            <key code="47" output="»"/>
+            <key code="46" output="{"/>
+            <key code="47" output="`"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" output="`"/>
+            <key code="50" output=""/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1374,7 +1374,7 @@
             <when state="breve" output="̆"/>
         </action>
         <action id=" 1">
-            <when state="none" output=""/>
+            <when state="none" output="Ъ"/>
         </action>
         <action id=" 2">
             <when state="none" next="caron"/>
@@ -1472,7 +1472,7 @@
             <when state="diaeresis" output="̈"/>
         </action>
         <action id="Ё">
-            <when state="none" output="Ё"/>
+            <when state="none" output=""/>
             <when state="breve" output="Ӗ"/>
             <when state="diaeresis" output="Ё"/>
             <when state="grave" output="Ѐ"/>
@@ -1674,7 +1674,7 @@
             <when state="none" output="я"/>
         </action>
         <action id="ё">
-            <when state="none" output="ё"/>
+            <when state="none" output=""/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
@@ -1684,26 +1684,26 @@
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">
-            <when state="none" output="і"/>
+            <when state="none" output=""/>
             <when state="diaeresis" output="ï"/>
         </action>
         <action id="Ѣ">
             <when state="none" output="Ѣ"/>
         </action>
         <action id="ѣ">
-            <when state="none" output="ѣ"/>
+            <when state="none" output="₽"/>
         </action>
         <action id="Ѳ">
             <when state="none" output="Ѳ"/>
         </action>
         <action id="ѳ">
-            <when state="none" output="ѳ"/>
+            <when state="none" output="*"/>
         </action>
         <action id="Ґ">
             <when state="none" output="Ґ"/>
         </action>
         <action id="ґ">
-            <when state="none" output="ґ"/>
+            <when state="none" output="["/>
         </action>
         <action id="⁄">
             <when state="none" next="acute"/>

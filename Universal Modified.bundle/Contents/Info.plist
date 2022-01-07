@@ -11,11 +11,13 @@
 	<key>KLInfo_English - Universal</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>me.tonsky.keyboardlayout.universal.english-universal</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
+		<key>TISIconIsTemplate</key>
+ 		<true/>
 	</dict>
 	<key>KLInfo_Russian - Universal</key>
 	<dict>
