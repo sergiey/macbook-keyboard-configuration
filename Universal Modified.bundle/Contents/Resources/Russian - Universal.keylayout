@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2022-01-07 at 17:32 (GMT+3)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2022-03-25 at 00:39 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-14928" name="Russian - Universal" maxout="3">
     <layouts>
@@ -280,8 +280,8 @@
             <key code="1" output="+"/>
             <key code="2" output="&#x0027;"/>
             <key code="3" output="&#x0022;"/>
-            <key code="4" output="_"/>
-            <key code="5" output="-"/>
+            <key code="4" output=""/>
+            <key code="5" output="["/>
             <key code="6" output=""/>
             <key code="7" output="|"/>
             <key code="8" output="\"/>
@@ -293,7 +293,7 @@
             <key code="14" output="?"/>
             <key code="15" output="%"/>
             <key code="16" action="ѣ"/>
-            <key code="17" output="ё"/>
+            <key code="17" output="_"/>
             <key code="18" output="¹"/>
             <key code="19" output="&#x0022;"/>
             <key code="20" output="№"/>
@@ -310,16 +310,16 @@
             <key code="31" action="ѳ"/>
             <key code="32" action="ґ"/>
             <key code="33" output="“"/>
-            <key code="34" output="]"/>
+            <key code="34" output="*"/>
             <key code="35" output="„"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="="/>
             <key code="38" output="("/>
             <key code="39" output="ъ"/>
-            <key code="40" output=")"/>
+            <key code="40" output="-"/>
             <key code="41" output=";"/>
             <key code="42" output=""/>
-            <key code="43" output="}"/>
+            <key code="43" output=""/>
             <key code="44" output=""/>
             <key code="45" output=""/>
             <key code="46" output="{"/>
@@ -393,7 +393,7 @@
             <key code="2" output="⌀"/>
             <key code="3" output=""/>
             <key code="4" output=""/>
-            <key code="5" output=""/>
+            <key code="5" output="]"/>
             <key code="6" action="cedilla"/>
             <key code="7" output="·"/>
             <key code="8" output="¢"/>
@@ -426,7 +426,7 @@
             <key code="35" output="˝"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="’"/>
-            <key code="38" output=""/>
+            <key code="38" output=")"/>
             <key code="39" action=" 1"/>
             <key code="40" output="‘"/>
             <key code="41" action="ˆ"/>
@@ -434,7 +434,7 @@
             <key code="43" output="„"/>
             <key code="44" action="⁄"/>
             <key code="45" action=" 5"/>
-            <key code="46" output="Ъ"/>
+            <key code="46" output="}"/>
             <key code="47" output="“"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
@@ -1482,7 +1482,7 @@
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="І">
-            <when state="none" output="І"/>
+            <when state="none" output="Щ"/>
             <when state="diaeresis" output="Ї"/>
         </action>
         <action id="А">
@@ -1684,7 +1684,7 @@
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">
-            <when state="none" output=""/>
+            <when state="none" output="щ"/>
             <when state="diaeresis" output="ï"/>
         </action>
         <action id="Ѣ">
@@ -1694,16 +1694,16 @@
             <when state="none" output="₽"/>
         </action>
         <action id="Ѳ">
-            <when state="none" output="Ѳ"/>
+            <when state="none" output="Ё"/>
         </action>
         <action id="ѳ">
-            <when state="none" output="*"/>
+            <when state="none" output="ё"/>
         </action>
         <action id="Ґ">
             <when state="none" output="Ґ"/>
         </action>
         <action id="ґ">
-            <when state="none" output="["/>
+            <when state="none" output=""/>
         </action>
         <action id="⁄">
             <when state="none" next="acute"/>

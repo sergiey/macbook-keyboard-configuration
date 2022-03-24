@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2022-01-07 at 17:34 (GMT+3)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2022-03-25 at 00:31 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-12087" name="English - Universal" maxout="3">
     <layouts>
@@ -277,8 +277,8 @@
             <key code="1" output="+"/>
             <key code="2" output="&#x0027;"/>
             <key code="3" output="&#x0022;"/>
-            <key code="4" output="_"/>
-            <key code="5" output="-"/>
+            <key code="4" output=""/>
+            <key code="5" output="["/>
             <key code="6" output=""/>
             <key code="7" output="|"/>
             <key code="8" output="\"/>
@@ -290,7 +290,7 @@
             <key code="14" output="?"/>
             <key code="15" output="%"/>
             <key code="16" output=""/>
-            <key code="17" output=""/>
+            <key code="17" output="_"/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>
             <key code="20" output="³"/>
@@ -304,19 +304,19 @@
             <key code="28" output="∞"/>
             <key code="29" output="→"/>
             <key code="30" output=""/>
-            <key code="31" output="*"/>
-            <key code="32" output="["/>
+            <key code="31" output=""/>
+            <key code="32" output=""/>
             <key code="33" output="”"/>
-            <key code="34" output="]"/>
+            <key code="34" output="*"/>
             <key code="35" output="“"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="="/>
             <key code="38" output="("/>
             <key code="39" output=""/>
-            <key code="40" output=")"/>
+            <key code="40" output="-"/>
             <key code="41" output=";"/>
             <key code="42" output=""/>
-            <key code="43" output="}"/>
+            <key code="43" output=""/>
             <key code="44" output=""/>
             <key code="45" output=""/>
             <key code="46" output="{"/>
@@ -390,7 +390,7 @@
             <key code="2" output="⌀"/>
             <key code="3" output=""/>
             <key code="4" output=""/>
-            <key code="5" output=""/>
+            <key code="5" output="]"/>
             <key code="6" action="cedilla"/>
             <key code="7" output="·"/>
             <key code="8" output="¢"/>
@@ -423,7 +423,7 @@
             <key code="35" output="˝"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="’"/>
-            <key code="38" output=""/>
+            <key code="38" output=")"/>
             <key code="39" action=" 1"/>
             <key code="40" output="‘"/>
             <key code="41" action="ˆ"/>
@@ -431,7 +431,7 @@
             <key code="43" output="„"/>
             <key code="44" action=" 4"/>
             <key code="45" action=" 5"/>
-            <key code="46" output="•"/>
+            <key code="46" output="}"/>
             <key code="47" output="“"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
