@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2023-01-06 at 01:42 (GMT+3)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2023-01-21 at 02:49 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-17205" name="Russian - Dictor" maxout="3">
     <layouts>
@@ -94,7 +94,7 @@
             <key code="39" action="э"/>
             <key code="40" action="л"/>
             <key code="41" action="ж"/>
-            <key code="42" output="ё"/>
+            <key code="42" output=""/>
             <key code="43" action="б"/>
             <key code="44" output="ж"/>
             <key code="45" action="16"/>
@@ -206,7 +206,7 @@
             <key code="39" action="Э"/>
             <key code="40" action="Л"/>
             <key code="41" action="Ж"/>
-            <key code="42" output="Ё"/>
+            <key code="42" output=""/>
             <key code="43" action="Б"/>
             <key code="44" output="Ж"/>
             <key code="45" action="9"/>
@@ -282,7 +282,7 @@
             <key code="3" output="&#x0022;"/>
             <key code="4" output="|"/>
             <key code="5" output="ѣ"/>
-            <key code="6" output="ѳ"/>
+            <key code="6" output=""/>
             <key code="7" output="]"/>
             <key code="8" output="["/>
             <key code="9" output="ѵ"/>
@@ -1456,7 +1456,7 @@
             <when state="grave" output="̀"/>
         </action>
         <action id="cedilla">
-            <when state="none" output="Ѳ"/>
+            <when state="none" output=""/>
             <when state="cedilla" output="̧"/>
         </action>
         <action id="ring">
@@ -1472,7 +1472,7 @@
             <when state="diaeresis" output="̈"/>
         </action>
         <action id="Ё">
-            <when state="none" output=""/>
+            <when state="none" output="Ё"/>
             <when state="breve" output="Ӗ"/>
             <when state="diaeresis" output="Ё"/>
             <when state="grave" output="Ѐ"/>
@@ -1674,7 +1674,7 @@
             <when state="none" output="ф"/>
         </action>
         <action id="ё">
-            <when state="none" output="~"/>
+            <when state="none" output="ё"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
@@ -1688,10 +1688,10 @@
             <when state="diaeresis" output="ï"/>
         </action>
         <action id="Ѣ">
-            <when state="none" output=""/>
+            <when state="none" output="Ѳ"/>
         </action>
         <action id="ѣ">
-            <when state="none" output=""/>
+            <when state="none" output="ѳ"/>
         </action>
         <action id="Ѳ">
             <when state="none" output=""/>
